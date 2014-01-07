@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B17114518638B9600EF00B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114418638B9600EF00B0 /* Foundation.framework */; };
+		4B17114718638B9600EF00B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114618638B9600EF00B0 /* CoreGraphics.framework */; };
+		4B17114918638B9600EF00B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114818638B9600EF00B0 /* UIKit.framework */; };
+		4B17114B18638B9600EF00B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114A18638B9600EF00B0 /* CoreData.framework */; };
+		4B17115118638B9600EF00B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B17114F18638B9600EF00B0 /* InfoPlist.strings */; };
+		4B17115318638B9600EF00B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17115218638B9600EF00B0 /* main.m */; };
+		4B17115718638B9600EF00B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17115618638B9600EF00B0 /* AppDelegate.m */; };
+		4B17115A18638B9600EF00B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B17115818638B9600EF00B0 /* Main.storyboard */; };
+		4B17115D18638B9700EF00B0 /* KarmaPolice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B17115B18638B9700EF00B0 /* KarmaPolice.xcdatamodeld */; };
+		4B17116018638B9700EF00B0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17115F18638B9700EF00B0 /* MasterViewController.m */; };
+		4B17116318638B9700EF00B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17116218638B9700EF00B0 /* DetailViewController.m */; };
+		4B17116518638B9700EF00B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B17116418638B9700EF00B0 /* Images.xcassets */; };
+		4B17116C18638B9700EF00B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17116B18638B9700EF00B0 /* XCTest.framework */; };
+		4B17116D18638B9700EF00B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114418638B9600EF00B0 /* Foundation.framework */; };
+		4B17116E18638B9700EF00B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114818638B9600EF00B0 /* UIKit.framework */; };
+		4B17116F18638B9700EF00B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B17114A18638B9600EF00B0 /* CoreData.framework */; };
+		4B17117718638B9700EF00B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B17117518638B9700EF00B0 /* InfoPlist.strings */; };
+		4B17117918638B9700EF00B0 /* KarmaPoliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17117818638B9700EF00B0 /* KarmaPoliceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B17117018638B9700EF00B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B17113918638B9600EF00B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B17114018638B9600EF00B0;
+			remoteInfo = KarmaPolice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B17114118638B9600EF00B0 /* KarmaPolice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarmaPolice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B17114418638B9600EF00B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B17114618638B9600EF00B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B17114818638B9600EF00B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B17114A18638B9600EF00B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B17114E18638B9600EF00B0 /* KarmaPolice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KarmaPolice-Info.plist"; sourceTree = "<group>"; };
+		4B17115018638B9600EF00B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B17115218638B9600EF00B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B17115418638B9600EF00B0 /* KarmaPolice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KarmaPolice-Prefix.pch"; sourceTree = "<group>"; };
+		4B17115518638B9600EF00B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B17115618638B9600EF00B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B17115918638B9600EF00B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B17115C18638B9700EF00B0 /* KarmaPolice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KarmaPolice.xcdatamodel; sourceTree = "<group>"; };
+		4B17115E18638B9700EF00B0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4B17115F18638B9700EF00B0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4B17116118638B9700EF00B0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4B17116218638B9700EF00B0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4B17116418638B9700EF00B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B17116A18638B9700EF00B0 /* KarmaPoliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarmaPoliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B17116B18638B9700EF00B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B17117418638B9700EF00B0 /* KarmaPoliceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KarmaPoliceTests-Info.plist"; sourceTree = "<group>"; };
+		4B17117618638B9700EF00B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B17117818638B9700EF00B0 /* KarmaPoliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KarmaPoliceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B17113E18638B9600EF00B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B17114718638B9600EF00B0 /* CoreGraphics.framework in Frameworks */,
+				4B17114B18638B9600EF00B0 /* CoreData.framework in Frameworks */,
+				4B17114918638B9600EF00B0 /* UIKit.framework in Frameworks */,
+				4B17114518638B9600EF00B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B17116718638B9700EF00B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B17116C18638B9700EF00B0 /* XCTest.framework in Frameworks */,
+				4B17116F18638B9700EF00B0 /* CoreData.framework in Frameworks */,
+				4B17116E18638B9700EF00B0 /* UIKit.framework in Frameworks */,
+				4B17116D18638B9700EF00B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B17113818638B9600EF00B0 = {
+			isa = PBXGroup;
+			children = (
+				4B17114C18638B9600EF00B0 /* KarmaPolice */,
+				4B17117218638B9700EF00B0 /* KarmaPoliceTests */,
+				4B17114318638B9600EF00B0 /* Frameworks */,
+				4B17114218638B9600EF00B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B17114218638B9600EF00B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B17114118638B9600EF00B0 /* KarmaPolice.app */,
+				4B17116A18638B9700EF00B0 /* KarmaPoliceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B17114318638B9600EF00B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B17114418638B9600EF00B0 /* Foundation.framework */,
+				4B17114618638B9600EF00B0 /* CoreGraphics.framework */,
+				4B17114818638B9600EF00B0 /* UIKit.framework */,
+				4B17114A18638B9600EF00B0 /* CoreData.framework */,
+				4B17116B18638B9700EF00B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B17114C18638B9600EF00B0 /* KarmaPolice */ = {
+			isa = PBXGroup;
+			children = (
+				4B17115518638B9600EF00B0 /* AppDelegate.h */,
+				4B17115618638B9600EF00B0 /* AppDelegate.m */,
+				4B17115818638B9600EF00B0 /* Main.storyboard */,
+				4B17115E18638B9700EF00B0 /* MasterViewController.h */,
+				4B17115F18638B9700EF00B0 /* MasterViewController.m */,
+				4B17116118638B9700EF00B0 /* DetailViewController.h */,
+				4B17116218638B9700EF00B0 /* DetailViewController.m */,
+				4B17116418638B9700EF00B0 /* Images.xcassets */,
+				4B17115B18638B9700EF00B0 /* KarmaPolice.xcdatamodeld */,
+				4B17114D18638B9600EF00B0 /* Supporting Files */,
+			);
+			path = KarmaPolice;
+			sourceTree = "<group>";
+		};
+		4B17114D18638B9600EF00B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B17114E18638B9600EF00B0 /* KarmaPolice-Info.plist */,
+				4B17114F18638B9600EF00B0 /* InfoPlist.strings */,
+				4B17115218638B9600EF00B0 /* main.m */,
+				4B17115418638B9600EF00B0 /* KarmaPolice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B17117218638B9700EF00B0 /* KarmaPoliceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B17117818638B9700EF00B0 /* KarmaPoliceTests.m */,
+				4B17117318638B9700EF00B0 /* Supporting Files */,
+			);
+			path = KarmaPoliceTests;
+			sourceTree = "<group>";
+		};
+		4B17117318638B9700EF00B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B17117418638B9700EF00B0 /* KarmaPoliceTests-Info.plist */,
+				4B17117518638B9700EF00B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B17114018638B9600EF00B0 /* KarmaPolice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B17117C18638B9700EF00B0 /* Build configuration list for PBXNativeTarget "KarmaPolice" */;
+			buildPhases = (
+				4B17113D18638B9600EF00B0 /* Sources */,
+				4B17113E18638B9600EF00B0 /* Frameworks */,
+				4B17113F18638B9600EF00B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarmaPolice;
+			productName = KarmaPolice;
+			productReference = 4B17114118638B9600EF00B0 /* KarmaPolice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B17116918638B9700EF00B0 /* KarmaPoliceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B17117F18638B9700EF00B0 /* Build configuration list for PBXNativeTarget "KarmaPoliceTests" */;
+			buildPhases = (
+				4B17116618638B9700EF00B0 /* Sources */,
+				4B17116718638B9700EF00B0 /* Frameworks */,
+				4B17116818638B9700EF00B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B17117118638B9700EF00B0 /* PBXTargetDependency */,
+			);
+			name = KarmaPoliceTests;
+			productName = KarmaPoliceTests;
+			productReference = 4B17116A18638B9700EF00B0 /* KarmaPoliceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B17113918638B9600EF00B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Elizabeth Lambos";
+				TargetAttributes = {
+					4B17116918638B9700EF00B0 = {
+						TestTargetID = 4B17114018638B9600EF00B0;
+					};
+				};
+			};
+			buildConfigurationList = 4B17113C18638B9600EF00B0 /* Build configuration list for PBXProject "KarmaPolice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B17113818638B9600EF00B0;
+			productRefGroup = 4B17114218638B9600EF00B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B17114018638B9600EF00B0 /* KarmaPolice */,
+				4B17116918638B9700EF00B0 /* KarmaPoliceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B17113F18638B9600EF00B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B17116518638B9700EF00B0 /* Images.xcassets in Resources */,
+				4B17115118638B9600EF00B0 /* InfoPlist.strings in Resources */,
+				4B17115A18638B9600EF00B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B17116818638B9700EF00B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B17117718638B9700EF00B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B17113D18638B9600EF00B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B17116318638B9700EF00B0 /* DetailViewController.m in Sources */,
+				4B17116018638B9700EF00B0 /* MasterViewController.m in Sources */,
+				4B17115D18638B9700EF00B0 /* KarmaPolice.xcdatamodeld in Sources */,
+				4B17115718638B9600EF00B0 /* AppDelegate.m in Sources */,
+				4B17115318638B9600EF00B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B17116618638B9700EF00B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B17117918638B9700EF00B0 /* KarmaPoliceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B17117118638B9700EF00B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B17114018638B9600EF00B0 /* KarmaPolice */;
+			targetProxy = 4B17117018638B9700EF00B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B17114F18638B9600EF00B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B17115018638B9600EF00B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B17115818638B9600EF00B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B17115918638B9600EF00B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B17117518638B9700EF00B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B17117618638B9700EF00B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B17117A18638B9700EF00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B17117B18638B9700EF00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B17117D18638B9700EF00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaPolice/KarmaPolice-Prefix.pch";
+				INFOPLIST_FILE = "KarmaPolice/KarmaPolice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B17117E18638B9700EF00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaPolice/KarmaPolice-Prefix.pch";
+				INFOPLIST_FILE = "KarmaPolice/KarmaPolice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B17118018638B9700EF00B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KarmaPolice.app/KarmaPolice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaPolice/KarmaPolice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KarmaPoliceTests/KarmaPoliceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B17118118638B9700EF00B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KarmaPolice.app/KarmaPolice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaPolice/KarmaPolice-Prefix.pch";
+				INFOPLIST_FILE = "KarmaPoliceTests/KarmaPoliceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B17113C18638B9600EF00B0 /* Build configuration list for PBXProject "KarmaPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B17117A18638B9700EF00B0 /* Debug */,
+				4B17117B18638B9700EF00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B17117C18638B9700EF00B0 /* Build configuration list for PBXNativeTarget "KarmaPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B17117D18638B9700EF00B0 /* Debug */,
+				4B17117E18638B9700EF00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B17117F18638B9700EF00B0 /* Build configuration list for PBXNativeTarget "KarmaPoliceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B17118018638B9700EF00B0 /* Debug */,
+				4B17118118638B9700EF00B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B17115B18638B9700EF00B0 /* KarmaPolice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B17115C18638B9700EF00B0 /* KarmaPolice.xcdatamodel */,
+			);
+			currentVersion = 4B17115C18638B9700EF00B0 /* KarmaPolice.xcdatamodel */;
+			path = KarmaPolice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B17113918638B9600EF00B0 /* Project object */;
+}
